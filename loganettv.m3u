@@ -1,4 +1,3 @@
-#EXTM3U url-tvg="https://iptvx.one/EPG"
 #EXTINF:-1 tvg-id="pervy" audio-track="rus" group-title="Общие",Первый канал
 http://178.163.121.127:4022/udp/234.0.0.200:2000
 #EXTINF:-1 tvg-id="rossia1" audio-track="rus" group-title="Общие",Россия 1
