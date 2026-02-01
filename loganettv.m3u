@@ -1,23 +1,44 @@
 #EXTINF:-1 tvg-id="pervy" audio-track="rus" group-title="Общие",Первый канал
 http://178.163.121.127:4022/udp/234.0.0.200:2000
+#EXTINF:-1 tvg-id="pervy" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Общие",Первый канал (Архив)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
 #EXTINF:-1 tvg-id="rossia1" audio-track="rus" group-title="Общие",Россия 1
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/HO3gcQAHbok/russia1-sd/index.m3u8
+#EXTINF:-1 tvg-id="rossia1" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Общие",Россия 1 (Архив)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8
 #EXTINF:-1 tvg-id="rossia1" audio-track="rus" group-title="Общие",Россия 1 HD
 http://dmitry-tv.ddns.net/hls/smotrim/T2/CH_RUSSIA1HD.m3u8
 #EXTINF:-1 audio-track="rus" group-title="Общие",Россия 24
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/index.m3u8
+#EXTINF:-1 tvg-id="rossia-24" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Общие",Россия 24 (Архив)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
 #EXTINF:-1 audio-track="rus" group-title="Общие",Россия 24 HD
 http://77.232.131.211/Rossiya24/index.m3u8
 #EXTINF:-1 audio-track="rus" group-title="Общие",НТВ
 http://cdn.ntv.ru/ntv0/tracks-v3a1/mono.m3u8
+#EXTINF:-1 tvg-id="ntv" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Общие",НТВ (Архив)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
 #EXTINF:-1 audio-track="rus" group-title="Общие",НТВ HD
 http://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/mono.m3u8
 #EXTINF:-1 audio-track="rus" group-title="Общие",СТС
 http://31.131.141.195:8000/play/2030/index.m3u8
+#EXTINF:-1 tvg-id="sts" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Общие",СТС (Архив)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
 #EXTINF:-1 audio-track="rus" group-title="Общие",Рен ТВ
 http://185.46.16.239:8000/REN_TV
+#EXTINF:-1 tvg-id="rentv" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Общие",Рен ТВ (Архив)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
 #EXTINF:-1 audio-track="rus" group-title="Общие",ТНТ
 http://185.46.16.239:8000/TNT
+#EXTINF:-1 tvg-id="tnt" catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" group-title="Общие",ТНТ (Архив)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
 #EXTINF:-1 tvg-id="zvezda" audio-track="rus" group-title="Общие",Звезда
 http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_sdhigh.m3u8
 #EXTINF:-1 tvg-id="zvezda" audio-track="rus" group-title="Общие",Звезда HD
@@ -44,12 +65,8 @@ http://188.225.31.197/bpk-tv/000000034/tve/index.m3u8
 http://188.225.31.197/bpk-tv/000004474/tve/index.m3u8
 #EXTINF:-1 audio-track="rus" group-title="Общие",Наука
 http://vod.tuva.ru/nauka2/index.m3u8
-#EXTINF:-1 audio-track="rus" group-title="Общие",Nano
-http://s1.tv-nano.com/Nano_rec/video.m3u8
 #EXTINF:-1 audio-track="rus" group-title="Общие",Наука HD
 http://vod1.stb.tvime.ru/naukahd/video.m3u8?token=billing_6WJDKE9cG25U
-#EXTINF:-1 audio-track="rus" group-title="Общие",Nano HD
-http://194.143.148.28:8080/NanoTV/index.m3u8
 #EXTINF:-1 audio-track="rus" group-title="Общие",Пятница!
 https://vod.tuva.ru/friday/index.m3u8
 #EXTINF:-1 tvg-id="istoria" audio-track="rus" group-title="Общие",История
